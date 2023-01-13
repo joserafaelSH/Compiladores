@@ -1,7 +1,8 @@
 package lexicalAnalyzer;
 
 public enum TokenType {
-	
+	IdentVarName,
+	IdentString,
 	//data types
 	IdentVarInt, IdentVarFloat, IdentVarString,
 	//loop
@@ -19,6 +20,7 @@ public enum TokenType {
 	//atribuition
 	IdentAtribuition,
 	IdentSemiColon,
+	IdentEOF,
 	
 	//Math
 	IdentAdd, IdentSub, IdentMulti, IdentDiv, IdentEquals,

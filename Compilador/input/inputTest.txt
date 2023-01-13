@@ -4,6 +4,7 @@ INT x = 0;
 INT y = 10;
 FLOAT z = 0.0;
 
+
 WHILE(x <=y){
 	
 	z = z + 10;
