@@ -3,6 +3,8 @@ package lexicalAnalyzer;
 public enum TokenType {
 	IdentVarName,
 	IdentString,
+	IdentIntNumber,
+	IdentFloatNumber,
 	//data types
 	IdentVarInt, IdentVarFloat, IdentVarString,
 	//loop

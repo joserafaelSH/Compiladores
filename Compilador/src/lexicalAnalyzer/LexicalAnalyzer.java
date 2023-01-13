@@ -369,14 +369,14 @@ public class LexicalAnalyzer {
 				}
 				if(!Character.isDigit(currentChar)) {
 					this.freader.subPointer();
-					return new Token(TokenType.IdentVarInt, this.freader.getLex());
+					return new Token(TokenType.IdentIntNumber, this.freader.getLex());
 				}
 			}
 			
 			if(state == 3) {
 				if(!Character.isDigit(currentChar)) {
 					this.freader.subPointer();
-					return new Token(TokenType.IdentVarFloat, this.freader.getLex());
+					return new Token(TokenType.IdentFloatNumber, this.freader.getLex());
 				}
 			}
 		}
